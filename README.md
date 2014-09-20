@@ -49,7 +49,10 @@ Note: There migh be other ways to do this, but cbind and rbind seemed simpler
 
 #### Step2
 We need to extract only measurements on mean and sd from 561 variables. Now this is an open question, because mean() and sd() appear at the end of variables in 66 instance, meanFreq 13 times, and mean in angle variables 7 times. I have chosen to take only mean() and sd() giving me 66 variables. <br>
-*Line 17 to Line 24* in the script file describe this.
+*Line 17 to Line 24* in the script file describe this using grep.<br>
 mstd <- stores 66 column numbers of corresponding mean() and sd() variables <br>
-mstdn <- stores the 66 variable names related to mean() and sd()
+mstdn <- stores the 66 variable names related to mean() and sd() <br>
+step 2 data can be now easily subsetted as shown below:
+st2data <- st1data[,c(1,2,mstd+2)]. Dimensions = 10299 X 68 <br>
+First two columns are subject and activity variables, remaining 66 variables are related to mean() and sd(). 
 
