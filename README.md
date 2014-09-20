@@ -14,14 +14,12 @@ One we unzip the Smsung smart phone data from "https://d396qusza40orc.cloudfront
 
 ## "run_Analysis.R" Script description
 --------------------------------------
-Script reads different files "from UCI HAR Dataset" directory and stores the data sets as listed below:
-* features <- "features.txt" file is read and stored in this data frame.<br>
-Dimensions = 561 rows, 2 columns
+Script reads different files "from UCI HAR Dataset" directory and stores the data sets into objects as listed below:
+* features <- "features.txt" file data is stored here. Dimensions = 561 X 2 <br>
 ( v1=1,2...561), (v2=variable names as described in "features_info.txt")
-* alabels <- data from "activity_labels.txt" is stored here.
-Dimensions = 6 rows, 2 columns, 
+* alabels <- "activity_labels.txt" data is stored here. Dimensions = 6 X 2 <br> 
 (v1=1,2..6), (v2 = Walking, Walking_upstairs...)
-* subtrain <- "subject_train.txt" data is stored here. 
-dimensions = 7352 rows, 1 column
-(v1= 1 1 1....)  Basically training data set subject identifier from 1 to 30.
-* Xtrain
+* subtrain <- "subject_train.txt" data is stored here. Dimensions = 7352 X 1<br>
+(v1= 1 1 1....)  Basically training data set subject id from 1 to 30.
+* Xtrain <- "X_train.txt" data is stored here. Dimensions = 7352 x 561 <br>
+Column names are same as variable names from features.
