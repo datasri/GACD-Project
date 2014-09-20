@@ -27,5 +27,14 @@ Script reads different files "from UCI HAR Dataset" directory and stores the dat
 * Xtrain <- "X_train.txt" data is stored here. Dimensions = 7352 x 561 <br>
 Stores the actual training data for all the 561 feature variables.
 
-*Ytrain <- "Y_train.txt", data is stored here. Dimensions = 7352 X 1<br>
-This data set stores activity labels from 1 to 6.
+* Ytrain <- "Y_train.txt", data is stored here. Dimensions = 7352 X 1<br>
+This data set stores activity labels from 1 to 6 which correspond to whether the subject was WALKING, STANDING etc..
+
+Similar to the training data sets, we have test data sets as listed below:
+* subtest <- "subject_test.txt" data. Dimensions = 7352 X 1
+
+* Xtest <- "X_test.txt" data. Dimensions = 7352 X 561
+
+* Ytest <- "Y_test.txt" data. Dimensions = 7352 X 1
+
+
