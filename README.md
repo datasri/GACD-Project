@@ -15,7 +15,7 @@ One we unzip the Smsung smart phone data from "https://d396qusza40orc.cloudfront
 ## "run_Analysis.R" Script description
 --------------------------------------
 Script reads different files "from UCI HAR Dataset" directory and stores the data sets as listed below:
-* features <- "features.txt" file is read and stored in this data frame.\s\s
+* features <- "features.txt" file is read and stored in this data frame.\ \
 Dimensions = 561 rows, 2 columns
 ( v1=1,2...561), (v2=variable names as described in "features_info.txt")
 * alabels <- data from "activity_labels.txt" is stored here.
