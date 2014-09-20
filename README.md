@@ -14,7 +14,7 @@ One we unzip the Smsung smart phone data from "https://d396qusza40orc.cloudfront
 
 ## "run_Analysis.R" Script description
 --------------------------------------
-Script reads different files "from UCI HAR Dataset" directory and stores the data sets into objects as listed below:
+Script reads different files "from UCI HAR Dataset" directory using read.table function and stores the data sets into objects as listed below:
 * features <- "features.txt" file data is stored here. Dimensions = 561 X 2 <br>
 ( v1=1,2...561), (v2=variable names as described in "features_info.txt")
 
@@ -37,20 +37,16 @@ Similar to the training data sets, we have test data sets as listed below:
 
 * Ytest <- "Y_test.txt" data. Dimensions = 2947 X 1
 
-Different steps from project instruction
-----------------------------------------
-* STEP 1: We are asked to merge training and test data sets to create one data set. But first we need to combine subtrain, Xtrain, and Ytrain into one training data set, and also combine subtest, Xtest, and Ytest into one test data set. This can be achieved in a simple way by using cbind command as listed below. <br>
+### STEP 1
+We are asked to merge training and test data sets to create one data set. But first we need to combine subtrain, Xtrain, and Ytrain into one training data set, and also combine subtest, Xtest, and Ytest into one test data set. This can be achieved in a simple way by using cbind function as listed below. 
 
-train <- cbind(subtrain,Ytrain,Xtrain) <br>
-test <- cbind(subtest,Ytest,Xtest) <br>
+train <- cbind(subtrain,Ytrain,Xtrain). Dimensions of train: 7352 X 563<br>
+test <- cbind(subtest,Ytest,Xtest). Dimensions of test: 2947 X 563 
 
-Dimensions of train : 7352 X 563 <br>
-Dimensions of test: 2947 X 563 <br>
+Now we can combine train and test data frames by a simple rbind function.
 
-Now we can combine train and test by a simple rbind command
-
-st1data <- rbind(train,test)
-Dimensions of st1data: 10299 X 563
+st1data <- rbind(train,test). Dimensions of st1data: 10299 X 563<br>
+NOTE: There migh be other ways to do this, but cbind and rbind seemed simpler
 
 * STEP2:
 
