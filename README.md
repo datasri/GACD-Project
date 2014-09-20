@@ -31,10 +31,29 @@ Stores the actual training data for all the 561 feature variables.
 This data set stores activity labels from 1 to 6 which correspond to whether the subject was WALKING, STANDING etc..
 
 Similar to the training data sets, we have test data sets as listed below:
-* subtest <- "subject_test.txt" data. Dimensions = 7352 X 1
+* subtest <- "subject_test.txt" data. Dimensions = 2947 X 1
 
-* Xtest <- "X_test.txt" data. Dimensions = 7352 X 561
+* Xtest <- "X_test.txt" data. Dimensions = 2947 X 561
 
-* Ytest <- "Y_test.txt" data. Dimensions = 7352 X 1
+* Ytest <- "Y_test.txt" data. Dimensions = 2947 X 1
+
+Different steps from project instruction
+----------------------------------------
+* STEP 1: We are asked to merge training and test data sets to create one data set. But first we need to combine subtrain, Xtrain, and Ytrain into one training data set, and also combine subtest, Xtest, and Ytest into one test data set. This can be achieved in a simple way by using cbind command as listed below. <br>
+
+train <- cbind(subtrain,Ytrain,Xtrain) <br>
+test <- cbind(subtest,Ytest,Xtest) <br>
+
+Dimensions of train : 7352 X 563 <br>
+Dimensions of test: 2947 X 563 <br>
+
+Now we can combine train and test by a simple rbind command
+
+st1data <- rbind(train,test)
+Dimensions of st1data: 10299 X 563
+
+* STEP2:
+
+
 
 
