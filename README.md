@@ -52,7 +52,29 @@ We need to extract only measurements on mean and sd from 561 variables. Now this
 *Line 17 to Line 24* in the script file describe this using grep.<br>
 mstd <- stores 66 column numbers of corresponding mean() and sd() variables <br>
 mstdn <- stores the 66 variable names related to mean() and sd() <br>
-step 2 data can be now easily subsetted as shown below:
-st2data <- st1data[,c(1,2,mstd+2)]. Dimensions = 10299 X 68 <br>
-First two columns are subject and activity variables, remaining 66 variables are related to mean() and sd(). 
+step 2 data can be now easily subsetted as shown below: <br>
+st2data <- st1data[,c(1,2,mstd+2)]. Dimensions of st2data 10299 X 68
+
+#### Step3
+st3data <- st2data; renamed just to denote step3. <br>
+Activity labels in st3data needs to be given descriptive names such as WALKING etc. While there are many ways to do this, a simple for loop did the job as shown in Line 29 to Line 35. <br>
+st3data  now has descriptive activity names in all rows of second column. <br>
+st3data still has Dimensions of 10299 X 68
+
+#### Step4
+st4data <- st3data. renamed just to to denote step4.<br>
+Until now variable names are still v1, v2..etc. they have notbeen given descriptive names. Line 37 takes care of this as shown below:<br>
+names(st4data) <- c("Subject", "Activity", mstdn)
+st4data now has descriptive variable names for all 68 columns <br>
+Dimensions of st4data 10299 X 68
+
+#### Step5
+Now we need to create a tidy data set with average of each feature variable for each activity and each subject. Again several ways to do this. Line 39, 40 show the process using aggregate function resulting in st5data. <br>
+Note: tested this seperately using melt and got same output
+
+st5data dimensions are 180 X 68. <br>
+Data is tidy, but there are some typos in some of 66 variable names like "BodyBody". So did little cleaning up of variable names using gsub function as shown from lines 43 to 51. <<br>
+Finally the data is written to a file called "tidydata.txt" using write.table function.  <br>
+Best way to read this file is using the read.table function as described below: <br>
+read.table("tidydata.txt", header=TRUE, check.names=FALSE)
 
