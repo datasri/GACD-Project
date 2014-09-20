@@ -17,7 +17,7 @@ One we unzip the Smsung smart phone data from "https://d396qusza40orc.cloudfront
 *Note: Script file is completely described here. So didnt put any additional comments in the script file *
 
 Script reads different files from "UCI HAR Dataset" directory using read.table function and stores the data sets into objects as listed below:
-* features <- "features.txt" file data is stored here. Dimensions = 561 X 2 <br
+* features <- "features.txt" file data is stored here. Dimensions = 561 X 2 <br>
 Variable names as described in "features_info.txt" are stored here.
 
 * alabels <- "activity_labels.txt" data is stored here. Dimensions = 6 X 2 <br> 
@@ -30,7 +30,7 @@ Training data set subject id's ranging from 1 to 30 are stored here.
 Stores the actual training data for all the 561 feature variables.
 
 * Ytrain <- "Y_train.txt", data is stored here. Dimensions = 7352 X 1<br>
-This data set stores activity labels from 1 to 6 which correspond to whether the subject was WALKING, STANDING etc..
+This data set stores activity labels from 1 to 6 
 
 Similar to the training data sets, we have test data sets as listed below:
 * subtest <- "subject_test.txt" data. Dimensions = 2947 X 1
