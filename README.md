@@ -37,19 +37,19 @@ Similar to the training data sets, we have test data sets as listed below:
 
 * Ytest <- "Y_test.txt" data. Dimensions = 2947 X 1
 
-### STEP 1
+#### Step1
 We are asked to merge training and test data sets to create one data set. But first we need to combine subtrain, Xtrain, and Ytrain into one training data set, and also combine subtest, Xtest, and Ytest into one test data set. This can be achieved in a simple way by using cbind function as listed below. 
 
 train <- cbind(subtrain,Ytrain,Xtrain). Dimensions of train: 7352 X 563<br>
 test <- cbind(subtest,Ytest,Xtest). Dimensions of test: 2947 X 563 
-
 Now we can combine train and test data frames by a simple rbind function.
 
 st1data <- rbind(train,test). Dimensions of st1data: 10299 X 563<br>
-NOTE: There migh be other ways to do this, but cbind and rbind seemed simpler
+Note: There migh be other ways to do this, but cbind and rbind seemed simpler
 
-* STEP2:
-
-
-
+#### Step2
+We need to extract only measurements on mean and sd from 561 variables. Now this is an open question, because mean() and sd() appear at the end of variables in 66 instance, meanFreq 13 times, and mean in angle variables 7 times. I have chosen to take only mean() and sd() giving me 66 variables. <br>
+*Line 17 to Line 24* in the script file describe this.
+mstd <- stores 66 column numbers of corresponding mean() and sd() variables <br>
+mstdn <- stores the 66 variable names related to mean() and sd()
 
