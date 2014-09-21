@@ -14,11 +14,11 @@ Activity<br>
 * WALKING_DOWNSTAIRS
 * WALKING_UPSTAIRS
 
-<tBodyAcc-X-M <br>
-	Mean of time domain body acceleration signal in X direction />
+tBodyAcc-X-M <br>
+	-Mean of time domain body acceleration signal in X direction 
 
 tBodyAcc-Y-M <br>
-		Mean of time domain body acceleration signal in Y direction
+	-Mean of time domain body acceleration signal in Y direction
 
 tBodyAcc-Z-M 
 		Mean of time domain body acceleration signal in Z direction
