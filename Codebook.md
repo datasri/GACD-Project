@@ -14,10 +14,10 @@ Activity<br>
 * WALKING_DOWNSTAIRS
 * WALKING_UPSTAIRS
 
-tBodyAcc-X-M 
+tBodyAcc-X-M <br>
 	Mean of time domain body acceleration signal in X direction
 
-tBodyAcc-Y-M 
+tBodyAcc-Y-M <br>
 		Mean of time domain body acceleration signal in Y direction
 
 tBodyAcc-Z-M 
@@ -76,7 +76,6 @@ tBodyGyro-Y-M
 
 tBodyGyro-Z-M 
 		Mean of time domain body angular velocity signal in Z direction
-
 										tBodyGyro-X-SD 
 		Standard deviation of time domain body angular velocity signal in X direction
 
