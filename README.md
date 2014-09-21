@@ -3,7 +3,7 @@
 
 ## Project Objective
 ------------------
-One we unzip the Smsung smart phone data from "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip". We will have UCI HAR Dataset directory which has training and test data sets. The goal of the project is two merge these two data sets, and make a tidy data set by performing few additional operations as described below:
+After we Unzip the Smsung smart phone data from "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", we will have UCI HAR Dataset directory which has training and test data sets. The goal of the project is two merge these two data sets, and make a tidy data set by performing few additional operations as described below:
 
 ## Contents of GACD-Project Repo
 --------------------------------
