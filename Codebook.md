@@ -18,52 +18,52 @@ tBodyAcc-X-M <br>
 -- Mean of time domain body acceleration signal in X direction 
 
 tBodyAcc-Y-M <br>
-- Mean of time domain body acceleration signal in Y direction
+-- Mean of time domain body acceleration signal in Y direction
 
 tBodyAcc-Z-M 
-- Mean of time domain body acceleration signal in Z direction
+-- Mean of time domain body acceleration signal in Z direction
 
 tBodyAcc-X-SD 
-- Standard deviation of time domain body acceleration signal in X direction
+-- Standard deviation of time domain body acceleration signal in X direction
 
 tBodyAcc-Y-SD 
-- Standard deviation of time domain body acceleration signal in Y direction
+-- Standard deviation of time domain body acceleration signal in Y direction
 
 tBodyAcc-Z-SD 
-- Standard deviation of time domain body acceleration signal in Z direction
+-- Standard deviation of time domain body acceleration signal in Z direction
 
 tGravityAcc-X-M 
-- Mean of time domain gravity acceleration signal in X direction
+-- Mean of time domain gravity acceleration signal in X direction
 
 tGravityAcc-Y-M 
-- Mean of time domain gravity acceleration signal in Y direction
+-- Mean of time domain gravity acceleration signal in Y direction
 
 tGravityAcc-Z-M 
-- Mean of time domain gravity acceleration signal in Z direction
+-- Mean of time domain gravity acceleration signal in Z direction
 
 tGravityAcc-X-SD 
-- Standard deviation of time domain gravity acceleration signal in X direction
+-- Standard deviation of time domain gravity acceleration signal in X direction
 
 tGravityAcc-Y-SD 
-- Standard deviation of time domain gravity acceleration signal in Y direction
+-- Standard deviation of time domain gravity acceleration signal in Y direction
 
 tGravityAcc-Z-SD 
-- Standard deviation of time domain gravity acceleration signal in Z direction
+-- Standard deviation of time domain gravity acceleration signal in Z direction
 
 tBodyAccJerk-X-M 
-- Mean of time domain body acceleration jerk signal in X direction
+-- Mean of time domain body acceleration jerk signal in X direction
 
 tBodyAccJerk-Y-M 
-- Mean of time domain body acceleration jerk signal in Y direction
+-- Mean of time domain body acceleration jerk signal in Y direction
 
 tBodyAccJerk-Z-M 
-- Mean of time domain body acceleration jerk signal in Z direction
+-- Mean of time domain body acceleration jerk signal in Z direction
 
 tBodyAccJerk-X-SD 
-- Standard deviation of time domain body acceleration jerk signal in X direction
+-- Standard deviation of time domain body acceleration jerk signal in X direction
 
 tBodyAccJerk-Y-SD 
-- Standard deviation of time domain body acceleration jerk signal in Y direction
+-- Standard deviation of time domain body acceleration jerk signal in Y direction
 
 tBodyAccJerk-Z-SD 
 - Standard deviation of time domain body acceleration jerk signal in Z direction
