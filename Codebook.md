@@ -20,194 +20,195 @@ tBodyAcc-X-M <br>
 tBodyAcc-Y-M <br>
 -- Mean of time domain body acceleration signal in Y direction
 
-tBodyAcc-Z-M 
+tBodyAcc-Z-M <br>
 -- Mean of time domain body acceleration signal in Z direction
 
-tBodyAcc-X-SD 
+tBodyAcc-X-SD <br>
 -- Standard deviation of time domain body acceleration signal in X direction
 
-tBodyAcc-Y-SD 
+tBodyAcc-Y-SD <br>
 -- Standard deviation of time domain body acceleration signal in Y direction
 
-tBodyAcc-Z-SD 
+tBodyAcc-Z-SD <br>
 -- Standard deviation of time domain body acceleration signal in Z direction
 
-tGravityAcc-X-M 
+tGravityAcc-X-M <br>
 -- Mean of time domain gravity acceleration signal in X direction
 
-tGravityAcc-Y-M 
+tGravityAcc-Y-M <br>
 -- Mean of time domain gravity acceleration signal in Y direction
 
-tGravityAcc-Z-M 
+tGravityAcc-Z-M <br>
 -- Mean of time domain gravity acceleration signal in Z direction
 
-tGravityAcc-X-SD 
+tGravityAcc-X-SD <br>
 -- Standard deviation of time domain gravity acceleration signal in X direction
 
-tGravityAcc-Y-SD 
+tGravityAcc-Y-SD <br>
 -- Standard deviation of time domain gravity acceleration signal in Y direction
 
-tGravityAcc-Z-SD 
+tGravityAcc-Z-SD <br>
 -- Standard deviation of time domain gravity acceleration signal in Z direction
 
-tBodyAccJerk-X-M 
+tBodyAccJerk-X-M <br>
 -- Mean of time domain body acceleration jerk signal in X direction
 
-tBodyAccJerk-Y-M 
+tBodyAccJerk-Y-M <br>
 -- Mean of time domain body acceleration jerk signal in Y direction
 
-tBodyAccJerk-Z-M 
+tBodyAccJerk-Z-M <br>
 -- Mean of time domain body acceleration jerk signal in Z direction
 
-tBodyAccJerk-X-SD 
+tBodyAccJerk-X-SD <br>
 -- Standard deviation of time domain body acceleration jerk signal in X direction
 
-tBodyAccJerk-Y-SD 
+tBodyAccJerk-Y-SD <br>
 -- Standard deviation of time domain body acceleration jerk signal in Y direction
 
-tBodyAccJerk-Z-SD 
-- Standard deviation of time domain body acceleration jerk signal in Z direction
+tBodyAccJerk-Z-SD <br>
+-- Standard deviation of time domain body acceleration jerk signal in Z direction
 
-tBodyGyro-X-M 
-- Mean of time domain body angular velocity signal in X direction
+tBodyGyro-X-M <br>
+-- Mean of time domain body angular velocity signal in X direction
 
-tBodyGyro-Y-M 
-- Mean of time domain body angular velocity signal in Y direction
+tBodyGyro-Y-M <br>
+-- Mean of time domain body angular velocity signal in Y direction
 
-tBodyGyro-Z-M 
-- Mean of time domain body angular velocity signal in Z direction
-										tBodyGyro-X-SD 
-- Standard deviation of time domain body angular velocity signal in X direction
+tBodyGyro-Z-M <br>
+-- Mean of time domain body angular velocity signal in Z direction
+									
+tBodyGyro-X-SD <br> 
+-- Standard deviation of time domain body angular velocity signal in X direction
 
-tBodyGyro-Y-SD 
-- Standard deviation of time domain body angular velocity signal in Y direction
+tBodyGyro-Y-SD <br>
+-- Standard deviation of time domain body angular velocity signal in Y direction
 
-tBodyGyro-Z-SD 
-- Standard deviation of time domain body angular velocity signal in Z direction
+tBodyGyro-Z-SD <br>
+-- Standard deviation of time domain body angular velocity signal in Z direction
 
-tBodyGyroJerk-X-M 
-- Mean of time domain body angular velocity jerk signal in X direction
+tBodyGyroJerk-X-M <br>
+-- Mean of time domain body angular velocity jerk signal in X direction
 
-tBodyGyroJerk-Y-M 
-- Mean of time domain body angular velocity jerk signal in Y direction
+tBodyGyroJerk-Y-M <br>
+-- Mean of time domain body angular velocity jerk signal in Y direction
 
-tBodyGyroJerk-Z-M 
-- Mean of time domain body angular velocity jerk signal in Z direction
+tBodyGyroJerk-Z-M <br>
+-- Mean of time domain body angular velocity jerk signal in Z direction
 
-tBodyGyroJerk-X-SD 
-- Standard deviation of time domain body angular velocity jerk signal in X direction
+tBodyGyroJerk-X-SD <br>
+-- Standard deviation of time domain body angular velocity jerk signal in X direction
 
-tBodyGyroJerk-Y-SD 
-- Standard deviation of time domain body angular velocity jerk signal in Y direction
+tBodyGyroJerk-Y-SD <br>
+-- Standard deviation of time domain body angular velocity jerk signal in Y direction
 
-tBodyGyroJerk-Z-SD 
-- Standard deviation of time domain body angular velocity jerk signal in Z direction
+tBodyGyroJerk-Z-SD <br>
+-- Standard deviation of time domain body angular velocity jerk signal in Z direction
 
-tBodyAccMag-M 
-- Mean of time domain body acceleration magnitude
+tBodyAccMag-M <br>
+-- Mean of time domain body acceleration magnitude
 
-tBodyAccMag-SD
-- Standard deviation of time domain body acceleration magnitude
+tBodyAccMag-SD<br>
+-- Standard deviation of time domain body acceleration magnitude
 
-tGravityAccMag-M 
-- Mean of time domain gravity acceleration magnitude
+tGravityAccMag-M <br>
+-- Mean of time domain gravity acceleration magnitude
 
-tGravityAccMag-SD
-- Standard deviation of time domain gravity acceleration magnitude
+tGravityAccMag-SD<br>
+-- Standard deviation of time domain gravity acceleration magnitude
 
-tBodyAccJerkMag-M 
-- Mean of time domain body acceleration jerk magnitude
+tBodyAccJerkMag-M <br>
+-- Mean of time domain body acceleration jerk magnitude
 
-tBodyAccJerkMag-SD
-- Standard deviation of time domain body acceleration jerk magnitude
+tBodyAccJerkMag-SD <br>
+-- Standard deviation of time domain body acceleration jerk magnitude
 
-tBodyGyroMag-M 
-- Mean of time domain body angular velocity magnitude
+tBodyGyroMag-M <br>
+-- Mean of time domain body angular velocity magnitude
 
-tBodyGyroMag-SD
-- Standard deviation of time domain body angular velocity magnitude
+tBodyGyroMag-SD <br>
+-- Standard deviation of time domain body angular velocity magnitude
 
-tBodyGyroJerkMag-M 
-- Mean of time domain body angular velocity jerk magnitude
+tBodyGyroJerkMag-M <br>
+-- Mean of time domain body angular velocity jerk magnitude
 
-tBodyGyroJerkMag-SD
-- Standard deviation of time domain body angular velocity jerk magnitude
+tBodyGyroJerkMag-SD <br>
+-- Standard deviation of time domain body angular velocity jerk magnitude
 
-fBodyAcc-X-M 
-- Mean of Fast Fourier Transform of body acceleration signal in X direction
+fBodyAcc-X-M <br>
+-- Mean of Fast Fourier Transform of body acceleration signal in X direction
 
-fBodyAcc-Y-M 
-- Mean of Fast Fourier Transform of body acceleration signal in Y direction
+fBodyAcc-Y-M <br>
+-- Mean of Fast Fourier Transform of body acceleration signal in Y direction
 
-fBodyAcc-Z-M 
-- Mean of Fast Fourier Transform of body acceleration signal in Z direction
+fBodyAcc-Z-M <br>
+-- Mean of Fast Fourier Transform of body acceleration signal in Z direction
 
-fBodyAcc-X-SD 
-- Standard deviation of Fast Fourier Transform of body acceleration signal in X direction
+fBodyAcc-X-SD <br>
+-- Standard deviation of Fast Fourier Transform of body acceleration signal in X direction
 
-fBodyAcc-Y-SD 
-- Standard deviation of Fast Fourier Transform of body acceleration signal in Y direction
+fBodyAcc-Y-SD <br>
+-- Standard deviation of Fast Fourier Transform of body acceleration signal in Y direction
 
-fBodyAcc-Z-SD 
-- Standard deviation of Fast Fourier Transform of body acceleration signal in Z direction
+fBodyAcc-Z-SD <br>
+-- Standard deviation of Fast Fourier Transform of body acceleration signal in Z direction
 
-fBodyAccJerk-X-M 
-- Mean of Fast Fourier Transform of body acceleration jerk signal in X direction
+fBodyAccJerk-X-M <br>
+-- Mean of Fast Fourier Transform of body acceleration jerk signal in X direction
 
-fBodyAccJerk-Y-M 
-- Mean of Fast Fourier Transform of body acceleration jerk signal in Y direction
+fBodyAccJerk-Y-M <br>
+-- Mean of Fast Fourier Transform of body acceleration jerk signal in Y direction
 
-fBodyAccJerk-Z-M 
-- Mean of Fast Fourier Transform of body acceleration jerk signal in Z direction
+fBodyAccJerk-Z-M <br>
+-- Mean of Fast Fourier Transform of body acceleration jerk signal in Z direction
 
-fBodyAccJerk-X-SD 
-- Standard deviation of Fast Fourier Transform of body acceleration jerk signal in X direction
+fBodyAccJerk-X-SD <br>
+-- Standard deviation of Fast Fourier Transform of body acceleration jerk signal in X direction
 
-fBodyAccJerk-Y-SD 
-- Standard deviation of Fast Fourier Transform of body acceleration jerk signal in Y direction
+fBodyAccJerk-Y-SD <br>
+-- Standard deviation of Fast Fourier Transform of body acceleration jerk signal in Y direction
 
-fBodyAccJerk-Z-SD 
-- Standard deviation of Fast Fourier Transform of body acceleration jerk signal in Z direction
+fBodyAccJerk-Z-SD <br>
+-- Standard deviation of Fast Fourier Transform of body acceleration jerk signal in Z direction
 
-fBodyGyro-X-M 
-- Mean of Fast Fourier Transform of body angular velocity signal in X direction
+fBodyGyro-X-M <br>
+-- Mean of Fast Fourier Transform of body angular velocity signal in X direction
 
-fBodyGyro-Y-M 
-- Mean of Fast Fourier Transform of body angular velocity signal in Y direction
+fBodyGyro-Y-M <br>
+-- Mean of Fast Fourier Transform of body angular velocity signal in Y direction
 
-fBodyGyro-Z-M 
-- Mean of Fast Fourier Transform of body angular velocity signal in Z direction
+fBodyGyro-Z-M <br>
+-- Mean of Fast Fourier Transform of body angular velocity signal in Z direction
 
-fBodyGyro-X-SD 
-- Standard deviation of Fast Fourier Transform of body angular velocity signal in X direction
+fBodyGyro-X-SD <br>
+-- Standard deviation of Fast Fourier Transform of body angular velocity signal in X direction
 
-fBodyGyro-Y-SD 
-- Standard deviation of Fast Fourier Transform of body angular velocity signal in Y direction
+fBodyGyro-Y-SD <br>
+-- Standard deviation of Fast Fourier Transform of body angular velocity signal in Y direction
 
-fBodyGyro-Z-SD 
-- Standard deviation of Fast Fourier Transform of body angular velocity signal in Z direction
+fBodyGyro-Z-SD <br>
+-- Standard deviation of Fast Fourier Transform of body angular velocity signal in Z direction
 
-fBodyAccMag-M 
-- Mean of Fast Fourier Transform of body acceleration magnitude
+fBodyAccMag-M <br>
+-- Mean of Fast Fourier Transform of body acceleration magnitude
 
-fBodyAccMag-SD
-- Standard deviation of Fast Fourier Transform of body acceleration magnitude
+fBodyAccMag-SD<br>
+-- Standard deviation of Fast Fourier Transform of body acceleration magnitude
 
-fBodyAccJerkMag-M 
-- Mean of Fast Fourier Transform of body acceleration jerk magnitude
+fBodyAccJerkMag-M <br>
+-- Mean of Fast Fourier Transform of body acceleration jerk magnitude
 
-fBodyAccJerkMag-SD
-- Standard deviation of Fast Fourier Transform of body acceleration jerk magnitude
+fBodyAccJerkMag-SD<br>
+-- Standard deviation of Fast Fourier Transform of body acceleration jerk magnitude
 
-fBodyGyroMag-M 
-- Mean of Fast Fourier Transform of body angular velocity magnitude
+fBodyGyroMag-M <br>
+-- Mean of Fast Fourier Transform of body angular velocity magnitude
 
-fBodyGyroMag-SD
-- Standard deviation of Fast Fourier Transform of body angular velocity magnitude
+fBodyGyroMag-SD<br>
+-- Standard deviation of Fast Fourier Transform of body angular velocity magnitude
 
-fBodyGyroJerkMag-M 
-- Mean of Fast Fourier Transform of body angular velocity jerk magnitude
+fBodyGyroJerkMag-M <br>
+-- Mean of Fast Fourier Transform of body angular velocity jerk magnitude
 
-fBodyGyroJerkMag-SD
-- Standard deviation of Fast Fourier Transform of body angular velocity jerk magnitude
+fBodyGyroJerkMag-SD<br>
+-- Standard deviation of Fast Fourier Transform of body angular velocity jerk magnitude
 
