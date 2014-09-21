@@ -16,8 +16,8 @@ Activity<br>
 
 *"Note: Remaining 66 variables are listed below. These variables are obtained from the original 561 feature variables. Out of the 561 original feature variables
 66 variables have been extracted that are related to mean() and sd(). meanFreq and mean in angle variables were not included. <br>
-Then the 66 variables were averaged for each activity and subject. <br>
-The 66 variables shown below are **averaged variables** of mean and sd variables for each activity and subject <br>
+Then the 66 mean() and sd() variables were averaged for each activity and subject. <br>
+The 66 variables shown below are __Averaged Variables__ of mean and sd variables for each activity and subject <br>
 There are also no units because the variables are normalized variables."*
 
 tBodyAcc-X-M <br>
