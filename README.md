@@ -10,6 +10,7 @@ After we Unzip the Smsung smart phone data from "https://d396qusza40orc.cloudfro
 * README.md file 
 * Script file "run_analysis.R" for describing all the tasks involved in preparing tidy data set
 * Codebook.md file which describes all the variables in the final tidy data set
+* "tidydata.txt" file
 
 ## "run_Analysis.R" Script description
 --------------------------------------
