@@ -10,11 +10,10 @@ After we Unzip the Smsung smart phone data from "https://d396qusza40orc.cloudfro
 * README.md file 
 * Script file "run_analysis.R" for describing all the tasks involved in preparing tidy data set
 * Codebook.md file which describes all the variables in the final tidy data set
-* UCI HAR Dataset Directory which has the original data sets
 
 ## "run_Analysis.R" Script description
 --------------------------------------
-*Note: Script file is completely described here. So didnt put any additional comments in the script file *
+*Note: Script file is completely described here. So didn't put any additional comments in the script file*
 
 Script reads different files from "UCI HAR Dataset" directory using read.table function and stores the data sets into objects as listed below:
 * features <- "features.txt" file data is stored here. Dimensions = 561 X 2 <br>
@@ -51,7 +50,7 @@ st1data <- rbind(train,test). Dimensions of st1data: 10299 X 563<br>
 
 #### Step2
 We need to extract only measurements on mean and sd from 561 variables. Now thiscan be interpreted in different ways, because mean() and sd() appear at the end of variables in 66 instances, meanFreq 13 times, and mean in angle variables 7 times. I have chosen to take only mean() and sd() resulting in 66 variables. <br>
-*Line 17 to Line 24* in the script file describe this using grep< resulting in mstd and mstdn objects. <br>
+Line 17 to Line 24 in the script file describe this using grep< resulting in mstd and mstdn objects. <br>
 mstd <- stores 66 column numbers of corresponding mean() and sd() variables <br>
 mstdn <- stores the 66 variable names related to mean() and sd() <br>
 step 2 data can be now easily subsetted as shown below: <br>

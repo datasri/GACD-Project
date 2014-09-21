@@ -1,4 +1,4 @@
-## This is a Codebook containing the information for all the variables in tidy data set "tidydata.txt".
+## This is a Codebook containing the information for all the 68 variables in tidy data set "tidydata.txt".
 
 
 Subject <br>
@@ -14,6 +14,10 @@ Activity<br>
 * WALKING_DOWNSTAIRS
 * WALKING_UPSTAIRS
 
+*"Note: Remaining 66 variables are listed below. These variables are obtained from the original 561 feature variables. Out of the 561 original feature variables
+66 variables have been extracted that are related to mean() and sd(). meanFreq and mean in angle variables were not included. <br>
+Then the 66 variables were averaged for each activity and subject. 
+**The variables shown below are averaged variables of mean and sd variables for each activity and subject***
 tBodyAcc-X-M <br>
 -- Mean of time domain body acceleration signal in X direction 
 
