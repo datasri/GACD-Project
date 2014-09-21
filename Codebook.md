@@ -6,7 +6,7 @@ Subject <br>
 
 
 Activity<br>
---  Activity description performed by each subject<br>
+--  Activity description performed by each subject. Initially this variable contained activity labels 1 to 6, which were eventually replaced with the activity description<br>
 * LAYING
 * SITTING
 * STANDING
